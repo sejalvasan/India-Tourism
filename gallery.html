@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            image gallery
+        </title>
+        <style type="text/css">
+        *{
+            box-sizing: border-box;
+         } 
+         .gallery{
+             border: 1px solid #ccc;}
+             .gallery img{
+                 width: 100%;
+                 height: auto;
+             }
+             .des{
+                 padding: 15px;
+                 text-align: center;
+             }
+             .responsive{
+                 padding: 0 6px;
+                 float: left;
+                 width: 25%;
+             }
+             @media only screen and (max-width :700px)
+             {
+                 .responsive{
+                     width: 50%;
+                     margin: 6px 0;
+                 }
+             }
+             @media only screen and (max-width :500px)
+             {
+                 .responsive{
+                     width: 100%;
+                 }
+             }
+            
+* {
+  background-image: url('wallpaper.jpg');
+}
+h1 {text-align: center;}
+             </style>
+    </head>
+    <body> 
+        <h1>Tourism - A Bliss </h1>
+        <nav>
+            <div class ="logo"> <h1 class ="animate__animated animate__bounce animate__infinite	infinite;"> My India, My Pride</h1></div>
+            <div class ="menu">
+                <a href ="index.html">Home</a>
+                <a href ="Contact.html">Contact</a>
+                <a href ="gallery.html">Gallery</a>
+                <a href ="about.html">About</a>
+                 </div>
+                </nav>
+              
+              
+                    
+        
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="delhi.jpg" target="blanl"><img src="delhi.jpg" width="300" height="200"></a>
+              <div class ="des">Lotus Temple ( Delhi )</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="goa.webp" target="blanl"><img src="goa.webp" width="300" height="200"></a>
+              <div class ="des">Baga Beach ( Goa )</div>
+            </div>
+        </div>
+
+        
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="kerela1.jpg" target="blanl"><img src="kerela1.jpg" width="300" height="1000"></a>
+              <div class ="des">Jheel Lake ( Kerela )</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="kashmir1.jpg" target="blanl"><img src="kashmir1.jpg" width="300" height="1000"></a>
+              <div class ="des">The Valley ( Kashmir )</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="delji1.jpg" target="blanl"><img src="delji1.jpg" width="300" height="1000"></a>
+              <div class ="des">India Gate ( Delhi )</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="mumbai.webp" target="blanl"><img src="mumbai.webp" width="300" height="200"></a>
+              <div class ="des">Gateway of India ( Mumbai )</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="imagica2.jpg" target="blanl"><img src="imagica2.jpg" width="300" height="1000"></a>
+              <div class ="des">Imagica ( Mumbai )</div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+              <a href ="agra.jpg" target="blanl"><img src="agra.jpg" width="300" height="200"></a>
+              <div class ="des">Taj Mahal ( Agra )</div>
+            </div>
+        </div>
+    </body>
+</html>
